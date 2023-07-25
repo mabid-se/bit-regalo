@@ -1,0 +1,80 @@
+/*
+[Master Stylesheet]
+
+Template Name: Funto - React NFT Marketplace
+Template Author: BitRegalo
+Template Author URL: https://themeforest.net/user/designing-world
+Version: 1.1.0
+*/
+
+/*
+[Table of Contents]
+    Google Fonts
+    Template Responsive
+    Template Variables
+    Basic Styles
+        + Reboot CSS
+        + Shortcodes CSS
+    Components Styles
+            + Header CSS
+            + Hero CSS
+            + Footer CSS
+            + NFT CSS
+            + About CSS
+            + Tab CSS
+            + Feedback CSS
+            + Blog CSS
+            + CTA CSS
+            + Breadcrumb CSS
+            + Item details CSS
+            + Help CSS
+            + Error CSS
+            + Register CSS
+            + Contact CSS
+            + Dashboard CSS
+            + Dark CSS
+
+[font-family]
+'DM', sans-serif;
+*/
+
+/* Import fonts & SCSS files */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
+@import "responsive.scss";
+@import "vars2.scss";
+@import "varsc.scss";
+@import "vars2d.scss";
+@import "variables.scss";
+@import "reboot.scss";
+@import "shortcode.scss";
+@import "custom.scss";
+@import "tables.scss";
+
+@import "avatar.scss";
+@import "header.scss";
+@import "hero.scss";
+@import "footer.scss";
+@import "nft.scss";
+@import "form-wizard.scss";
+@import "app-users.scss";
+@import "react-dataTable-component.scss";
+
+@import "about.scss";
+@import "projects.scss";
+@import "wallet.scss";
+@import "tab.scss";
+@import "feedback.scss";
+@import "blog.scss";
+
+@import "cta.scss";
+@import "breadcrumb.scss";
+@import "item-details.scss";
+@import "help.scss";
+
+@import "error.scss";
+@import "register.scss";
+@import "contact.scss";
+@import "dashboard.scss";
+
+@import "dark.scss";

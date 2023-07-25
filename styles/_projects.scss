@@ -1,0 +1,9 @@
+.projects-wrapper {
+  width: calc(100% - 0px);
+  margin-left: 0;
+
+  @media #{$breakpoint-lg} {
+    width: calc(100% - 300px);
+    margin-left: 252px;
+  }
+}

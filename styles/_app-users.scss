@@ -1,0 +1,17 @@
+// Users App
+// ========================================================================
+
+// User View: Project list table in Account tab
+.user-view-account-projects {
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.app-user-list {
+  padding-inline: 32px;
+  @media (max-width: 647px) {
+    .table-header-actions {
+      margin-top: 1rem;
+    }
+  }
+}

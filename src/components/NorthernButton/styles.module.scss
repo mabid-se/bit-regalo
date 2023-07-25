@@ -1,0 +1,17 @@
+.nt_btn {
+  cursor: pointer;
+  font-family: IBM Plex Sans;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
+}
+
+.white-outline {
+  border: 2px solid white;
+  padding: 8px 16px;
+  background: transparent;
+}
+
+.white-outline:hover {
+  background: white;
+  color: black;
+}

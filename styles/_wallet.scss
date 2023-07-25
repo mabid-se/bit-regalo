@@ -1,0 +1,109 @@
+.wallet-page-wrapper {
+  margin: 0px 32px;
+  border: 1px solid rgba(242, 245, 61, 0.21);
+  h1 {
+    margin-bottom: 32px;
+  }
+}
+
+.wallet-transactions {
+  border-left: 1px solid rgba(242, 245, 61, 0.21);
+
+  .wallet-transaction {
+    padding-top: 20px;
+    padding-bottom: 32px;
+    padding-inline: 16px;
+    border-bottom: 1px solid rgba(242, 245, 61, 0.21);
+    p {
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: 0.08em;
+      color: rgba(217, 217, 217, 0.63);
+      text-transform: uppercase;
+    }
+    h6 {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 29px;
+      width: fit-content;
+
+      letter-spacing: 0.08em;
+
+      color: #ffffff;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+.wallet-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 16px;
+  .wallet-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      font-size: 24px;
+      line-height: 29px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      margin-top: 16px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    > div {
+      background: #5405da;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 16px;
+      cursor: pointer;
+    }
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+
+.wallet-current-balance {
+  p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: 0.08em;
+
+    color: rgba(217, 217, 217, 0.63);
+  }
+
+  h6 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: 0.08em;
+
+    color: #ffffff;
+  }
+}
